@@ -1,0 +1,94 @@
+.card {
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 6px;
+    color: #FFF;
+}
+
+.card hr {
+    margin: 8px 0;
+}
+
+.card:hover {
+    -webkit-box-shadow: 7px 7px 22px 0px rgba(128,124,128,1);
+    -moz-box-shadow: 7px 7px 22px 0px rgba(128,124,128,1);
+    box-shadow: 7px 7px 22px 0px rgba(128,124,128,1);
+    cursor: pointer;
+}
+
+.list {
+    border: 2px solid #003b7f;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    color: #FFF;
+    height: 85vh;
+    background-color: #23568f;
+}
+
+.list hr {
+    margin: 5px 0;
+}
+
+.list-items {
+    overflow-y: auto;
+    height: 70vh;
+}
+
+.highlight {
+    background-color: #fff2a8;
+    color: black;
+}
+
+.male {
+    background-color: #536adf;
+}
+
+.female {
+    background-color: #ab26cc;
+}
+
+.photo {
+    padding-right: 6px;
+    display: inline;
+}
+
+.photo img {
+    border-radius: 10px;
+    border: 2px solid #FFF;
+}
+
+.check {
+    width: 42px;
+    float:right;
+}
+
+.name {
+    display: inline;
+    font-size: 16px;
+}
+
+.email {
+    display: inline-block;
+}
+
+.nothing {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #FA0;
+}
+
+.table-row {}
+
+.table-row:hover {
+    cursor:pointer;
+    background-color: #202020;
+}
+
+.active {
+    background-color: #AAA!important;
+    color: #FFF!important;
+    font-weight: bold!important;
+}
